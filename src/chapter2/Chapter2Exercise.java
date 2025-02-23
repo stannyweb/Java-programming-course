@@ -1,14 +1,14 @@
-package Chapter2;
+package chapter2;
 
 import java.util.Scanner;
 
 public class Chapter2Exercise {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
 //        1. Ask the user season of the year.
         System.out.println("Enter season of the year.");
-        Scanner scanner = new Scanner(System.in);
         String seasonInput = scanner.nextLine();
 
 //        2. Ask the user for a whole number.
