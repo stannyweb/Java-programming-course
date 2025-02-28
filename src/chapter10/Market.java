@@ -13,6 +13,7 @@ public class Market {
         banana.makeJuice();
 
 
+
         Fruit apple2 = new Apple();
         ((Apple) apple2).removeSeeds();
 
