@@ -6,6 +6,9 @@ public class InheritanceTester {
 
         Employee employee = new Employee();
 
+    }
+
+    public void testSquareOverride() {
         Rectangle rectangle = new Rectangle();
         rectangle.print();
 
